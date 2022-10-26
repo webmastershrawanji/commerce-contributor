@@ -1,6 +1,6 @@
 module.exports = [
     {
-      title: "Docs",
+      title: "Commerce Docs",
       path: "https://developer.adobe.com/commerce/docs"
     },
     {
