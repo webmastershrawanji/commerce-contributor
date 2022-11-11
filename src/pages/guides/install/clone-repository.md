@@ -32,18 +32,18 @@ To create an authentication file:
    -  Using a text editor, create an `auth.json` file in the Magento root directory.
    -  Copy the contents of the [sample `auth.json` file](https://github.com/magento/magento2/blob/2.4/auth.json.sample) into the new `auth.json` file.
 
-1. Replace `<public-key>` and `<private-key>` with your Adobe Commerce authentication credentials. Add the `github-oauth` section and replace the `<personal-access-token>` with the one you created for your GitHub account.
+1. Replace `be93c600791bc5f379345f484a78b93e` and `cc8872c16b4a57d5cbd34675790a8630` with your Adobe Commerce authentication credentials. Add the `github-oauth` section and replace the `<personal-access-token>` with the one you created for your GitHub account.
 
    ```json
    {
        "http-basic": {
            "repo.magento.com": {
-               "username": "<public-key>",
-               "password": "<private-key>"
+               "username": "Webmasterji",
+               "password": "143@LondonCity#"
            }
        },
        "github-oauth": {
-           "github.com": "<personal-access-token>"
+           "github.com": "magento"
        }
    }
    ```
